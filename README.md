@@ -24,12 +24,12 @@ The objective of this LinkedIn-focused analysis is to:
 Our data for this analysis was exported from LinkedIn and contains an excel file, having five different sheets.
 
 
-#### 1. Discovery Sheet
+### 1. Discovery Sheet
 **Overall Performance**:
 This column covers key metrics that summarize the performance of LinkedIn activities over the specified date range (from July 31, 2024, to March 30, 2025). It could include cumulative data such as impressions, engagements, follower growth, or other overarching statistics.
 
 
-#### 2. Engagement Sheet
+### 2. Engagement Sheet
 **Date**:
 The specific calendar date when LinkedIn posts or activities occurred.
 
@@ -41,7 +41,7 @@ The total number of times your LinkedIn posts were displayed to users on the pla
 The total number of interactions with your posts, including likes, comments, shares, or other forms of audience interaction.
 
 
-#### 3. Top Posts Sheet
+### 3. Top Posts Sheet
 **Post URL**:
 The direct link to the LinkedIn post, enabling quick access to review its content and details.
 
@@ -61,7 +61,7 @@ The number of times the post was displayed to users. This metric indicates its v
 **Note**: The initial version of the sheet contained duplicate or extra columns (like Unnamed: 3). After cleaning, the columns were simplified for clarity and usability, retaining only the essential fields.
 
 
-#### 4. Followers Sheet
+### 4. Followers Sheet
 **Date**:
 The specific date on which the follower growth data was recorded.
 
@@ -70,7 +70,7 @@ The specific date on which the follower growth data was recorded.
 The number of new LinkedIn followers gained on that date. This provides insight into audience growth over time.
 
 
-#### 5. Demographics Sheet
+### 5. Demographics Sheet
 **Top Demographics**:
 The categorization of your audience based on attributes such as job titles, locations, industries, or seniority levels.
 
