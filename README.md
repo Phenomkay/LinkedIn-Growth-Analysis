@@ -84,3 +84,39 @@ The proportion of the audience that belongs to this subgroup, expressed as a per
 
 
 This breakdown provides a comprehensive understanding of the data structure across the sheets. The cleaned dataset ensures clarity, making it easier to derive actionable insights such as performance trends, audience engagement patterns, follower growth, and demographic composition.
+
+
+### Discovery Table
+From the discovery table, we did the following analysis:
+
+#### Impressions (10,839) 
+ - This is the total number of times our content was displayed. It includes repeated views from the same users. It Measures how well our content is being distributed by LinkedIn’s algorithm. A rising trend suggests good content strategy and platform optimization
+
+#### Members Reached (1,493)
+ - This is the number of unique people who saw our content. Shows how many unique people are seeing our content. If this grows, our network and organic reach are expanding.
+
+#### What this means?
+- On average, each person who saw your content saw it multiple times (7.26 times)
+- A higher impressions-to-reach ratio suggests strong content visibility, possibly due to LinkedIn's algorithm resurfacing our posts.
+
+#### Actionable Insight:
+ - If Impressions are high but Reach is low, it means LinkedIn is showing our posts to the same audience repeatedly. We might need to engage with new people, use hashtags, or post at different times to expand reach.
+
+
+### Engagement Table
+From the engagement table, we did the following analysis
+
+**Date Conversion**: The Date column in the engagement table (df_eng) is converted into a datetime format, enabling advanced time-based operations.
+
+**Monthly Aggregation**: The engagement data is grouped by months using the .dt.to_period("M") function. This groups all rows from the same month and sums up numeric columns (like Impressions and Engagements).
+
+**Formatting for Plotting**: The resulting monthly data's index (representing months) is converted into strings, making it easier to use for plotting or further analysis.
+
+**Output**: The df_monthly table contains aggregated monthly totals for numeric columns (e.g., total Impressions and Engagements), offering a clear view of trends over time.
+
+This summarized table reveals how engagement metrics (impressions and engagements) have evolved month by month, which is useful for identifying trends or seasonal patterns in LinkedIn activity.
+
+Furthermore, the sum of all impressions is 10,839, indicating the total visibility of LinkedIn posts, while the sum of all engagements is 261, reflecting the overall audience interactions (likes, comments, shares, etc.) within the specified timeframe. This provides a snapshot of LinkedIn performance metrics.
+
+
+![Monthly Impression Trend](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/353c2b3885b1ca83604a4206b9294efc0b947887/Monthly%20Impression%20trend.png)
