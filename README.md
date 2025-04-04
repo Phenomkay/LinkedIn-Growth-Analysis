@@ -280,6 +280,19 @@ We then summarized the "New Followers" data into a clear, monthly format. The "D
 
 We went further to calculate the total number of new followers gained during the specified time frame (from July 31, 2024, to March 31, 2025) by summing up all the values in the "New followers" column. The result provides a clear metric of follower growth over this period, giving an overall measure of LinkedIn audience expansion. The calculation determined that a total of 779 new followers were gained on LinkedIn during the specified time frame from July 31, 2024, to March 18, 2025. This metric reflects the overall growth of your LinkedIn audience within this period.
 
+| Month    | Total New Followers |
+|----------|---------------------|
+| 2024-07  | 0                   |
+| 2024-08  | 32                  |
+| 2024-09  | 22                  |
+| 2024-10  | 46                  |
+| 2024-11  | 99                  |
+| 2024-12  | 122                 |
+| 2025-01  | 146                 |
+| 2025-02  | 151                 |
+| 2025-03  | 161                 |
+
+
 
 ## Demographics Table
 
