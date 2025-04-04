@@ -351,7 +351,7 @@ Lastly, we proceeded to creating pie charts to visualize demographic distributio
 
 
 ### Distribution of Job Titles
-![Distribution of Job titles](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/038e811b3c4988ba2f7ebcf73576ccb4e8a906fc/Comparison%20of%20Top%20Demographics.png)
+![Distribution of Job titles](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/925edb4805c18c62add8235e3268e36a09ab125f/Distribution%20of%20Job%20titles.png)
 
 ### Key Observations:
 **Dominant Role**: Data Analyst makes up the largest portion of the distribution at 41.5%, represented by the blue segment. This suggests a significant focus on analysis within the demographic or organization.
@@ -432,3 +432,121 @@ Lastly, we proceeded to creating pie charts to visualize demographic distributio
 **Increase Engagement at Higher Levels**: Smaller proportions in Director and Manager levels may indicate an opportunity to target these segments through leadership-centric content or exclusive offerings.
 
 **Expand Training Resources**: The Training-level audience could grow with initiatives focused on skill-building or professional development.
+
+
+### Distribution of Company Size
+![Distribution of Company size](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/925edb4805c18c62add8235e3268e36a09ab125f/Distribution%20of%20Company%20size.png)
+
+### Key Observations
+**Largest Segment**: 11-50 employees dominate the chart, making up 28.6% (blue). This suggests that a significant portion of the audience works in small-to-medium-sized companies.
+
+**Second Segment**: 1-10 employees follow with 21.1% (orange), indicating a strong representation from startups or very small businesses.
+
+**Enterprise Presence**: 10,001+ employees account for 20.4% (green), showcasing a considerable portion linked to large corporations.
+
+**Mid-Sized Companies**: 1001-5000 employees represent 15.8% (red), and 51-200 employees make up 14.1% (purple), suggesting steady contributions from mid-sized organizations.
+
+### Insights
+**Strong Small-Scale Representation**: Nearly half the audience comes from companies with 1-50 employees. This highlights an opportunity to cater content and strategies toward smaller businesses.
+
+**Balance Across All Sizes**: The presence of large companies (10,001+ employees) alongside startups indicates a diverse audience with varied needs.
+
+**Mid-Sized Potential**: While contributing smaller proportions, mid-sized companies hold room for targeted outreach or collaboration.
+
+Recommendations
+**Focus on Smaller Companies**: With small businesses forming the largest share, we will design solutions or campaigns tailored to their unique challenges (e.g., affordability, growth support).
+
+**Leverage Enterprise Resources**: We will engage large corporations to drive partnerships or initiatives that could benefit smaller organizations in the audience.
+
+**Expand Mid-Sized Reach**: Outreach to mid-sized companies will be strengthened to achieve broader representation across all scales.
+
+
+### Distribution of Companies
+![Distribution of companies](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/925edb4805c18c62add8235e3268e36a09ab125f/Distribution%20of%20companies.png)
+
+### Key Observations
+**Majority Share**: 10Alytics dominates the chart with a whopping 74.7% of the distribution (blue). This shows that a significant portion of the audience is affiliated with this company.
+
+**Minority Share**: The Other Companies (Amazon, Algora, Tech365ng, Microsoft) section contributes 25.3% (orange). While smaller, it still represents a quarter of the distribution, indicating a diverse mix of affiliations beyond the primary company.
+
+### Insights
+**High Affiliation with 10Alytics**: The dominance of 10Alytics suggests a focused or centralized audience. This could be a strong basis for building targeted campaigns or leveraging this company's network for strategic initiatives.
+
+**Opportunity in Diversification**: With 25.3% of the audience linked to other companies (Amazon, Algora, Tech365ng, Microsoft), there’s potential to explore and engage this diverse group further to expand outreach and connections.
+
+### Recommendations
+**Strengthen Core Engagement**: With most of the audience tied to 10Alytics, continue to develop content, events, or offerings specifically tailored to this network.
+
+**Explore Broader Outreach**: Engage the Other Companies group (Amazon, Algora, Tech365ng, Microsoft) more actively. This could be through collaborative projects, industry-specific campaigns, or initiatives that cater to their unique needs.
+
+
+## What the Analysis Has Helped Us Achieve
+
+### 1. Deeper Understanding of Your Audience:
+
+**Demographics**: We identified that most of your audience is comprised of tech-oriented roles like Data Analysts and Scientists, with a significant portion being entry-level professionals and small-to-medium businesses (1–50 employees).
+
+**Geographic Spread**: Your audience is concentrated in urban hubs like Lagos and the Greater Seattle Area, reflecting both local and international appeal.
+
+**Industry Focus**: A heavy presence in IT services and software development shows a predominantly tech-savvy group.
+
+### 2. Unveiling Strengths and Gaps:
+
+**Strengths**: High impressions and steady upward growth (e.g., in follower count and engagement from February to March 2025) show effective strategies at play.
+
+**Gaps**: Discrepancies between impressions and engagements, along with periods of zero activity (e.g., November 2024, January 2025), highlight areas for improvement.
+
+### 3. Insights into Trends:
+
+**Seasonal peaks** (e.g., December’s high impressions and new followers) and patterns (consistent growth in early 2025) can guide future content and campaign planning.
+
+### 4. Strategic Opportunities:
+
+The dominance of roles like Data Analysts, smaller companies, and entry-level professionals suggests untapped potential to cater specifically to these groups.
+
+
+## General Recommendations
+**Capitalize on Audience Strengths**: 
+Create programs or content tailored for entry-level professionals and small businesses. This could include webinars, skill-building resources, or budget-friendly offerings.
+Engage with your tech-focused audience through data-driven discussions or innovations in IT and software.
+
+**Address Gaps in Engagement**:
+Investigate reasons for low engagement in high-impression periods. Revise calls-to-action (CTAs), improve content interactivity, and focus on audience conversion.
+Prevent future periods of inactivity (e.g., November 2024, January 2025) by ensuring consistent campaigns or automated engagement strategies.
+
+**Leverage Seasonal Trends**:
+Plan major campaigns around peak months like December and March, utilizing what worked well during these periods. Use insights from high-growth months (e.g., February-March 2025) to replicate successful strategies in the future.
+
+**Expand Geographic Reach**:
+While Lagos and Seattle dominate, there’s potential to deepen engagement in smaller segments like Abuja and Ibadan or globally in London.
+
+**Foster Higher Engagement Across Demographics**:
+Bridge the gap between high impressions and low engagements by targeting specific job titles (e.g., Data Analysts) with relevant, engaging content.
+Use insights from 10Alytics’ dominance to strengthen collaborations and expand the influence into other companies.
+
+
+## Conclusion 
+This analysis has provided valuable insights into our audience's demographics, behaviors, and trends. By breaking down data across job titles, locations, industries, seniority levels, company sizes, and affiliations, we've identified strengths, gaps, and opportunities to optimize engagement strategies.
+
+### Key Takeaways
+**Strengths**: 
+A strong presence in tech-focused roles and industries.
+
+Consistent follower growth and high impressions in peak months.
+
+Geographic diversity with local and international reach.
+
+**Challenges**:
+Low engagement despite high impressions.
+
+Periods of inactivity requiring investigation and strategic planning.
+
+**Opportunities**:
+Leveraging entry-level majority and small-to-medium business focus.
+
+Replicating successful strategies during seasonal peaks and growth periods.
+
+Expanding outreach to untapped regions and demographics.
+
+
+With these findings, we can take targeted steps to maintain momentum, address challenges, and capitalize on opportunities.
