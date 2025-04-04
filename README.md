@@ -119,6 +119,7 @@ This summarized table reveals how engagement metrics (impressions and engagement
 Furthermore, the sum of all impressions is 10,839, indicating the total visibility of LinkedIn posts, while the sum of all engagements is 261, reflecting the overall audience interactions (likes, comments, shares, etc.) within the specified timeframe. This provides a snapshot of LinkedIn performance metrics.
 
 
+### Monthly Impression Trend
 ![Monthly Impression Trend](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/353c2b3885b1ca83604a4206b9294efc0b947887/Monthly%20Impression%20trend.png)
 
 ### Key insights
@@ -137,6 +138,7 @@ A sharp drop occurred in November 2024, where impressions hit around 450. This i
 **Evaluate Seasonal Effects**: October and December show peaks, we will consider whether certain times of year drive higher impressions and plan campaigns accordingly.
 
 
+### Monthly Engagement Trend
 ![Monthly Engagement Trend](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/dcc658906dd816ccefdfd10c69c2562aea2eb13b/Monthly%20Engagement%20Trend.png)
 
 ### Key Observations and Insights:
@@ -228,4 +230,205 @@ This approach helps identify trends over time, such as:
  - How impressions varied over time
  - Patterns in audience interaction
 
+
+### Engagement and Impression by Post Dates
 ![Engagement and Impression by Post Dates](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/dcc658906dd816ccefdfd10c69c2562aea2eb13b/Engagement%20and%20Impression%20by%20Post%20Dates.png)
+
+### Key Observations
+There is general variability, but impressions seem to outperform engagements by a large margin throughout the timeline.
+
+**Engagement Trends**: Engagements are considerably lower than impressions on all post dates. The highest engagements seem to occur intermittently, not aligning exactly with the peaks in impressions.
+
+**Disparity Between Engagements and Impressions**: The gap between impressions and engagements could suggest a lack of conversion or interaction despite high visibility.
+
+### Insights & Recommendations
+**Optimize Engagement Strategies**: Since impressions are high but engagements are low, we will consider strategies to improve interaction, such as more engaging content, clear calls-to-action (CTAs), or interactive elements.
+
+**Focus on Post that peaked**: We will examine and understand what worked during this time to replicate its success in future campaigns.
+
+**Investigate Performance Factors**: We will examine reasons for low engagement, there may be external factors like audience disinterest, targeting issues, or timing.
+
+**Consistency in Metrics**: Work towards aligning engagements with impressions consistent performance across both metrics can drive overall success.
+
+
+## Followers Table
+On the followers table, we performed the following analysis
+
+First, we converted the "Date" column into a datetime format to allow for time-based grouping. The data was then grouped by month, and the total number of "New followers" for each month was calculated. Finally, the monthly index was converted into a string format to facilitate easier plotting and visualization. This provided a clear, monthly view of follower growth trends.
+
+
+### New Followers Growth Trend
+![New followers Growth Trend](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/fbea7eeefc1380ae6856597e4af0c57e105ed627/New%20followers%20Growth%20Trend.png)
+
+### Key Insights:
+**Upward Trend**: There’s a consistent increase in new followers from July 2024 to March 2025, indicating a sustained effort or successful strategy.
+
+**Growth Acceleration**: The steepest climbs occur between October 2024 and November 2024 (46 to 99 followers) and between February 2025 and March 2025 (151 to 161 followers). These periods may reflect impactful campaigns or activities.
+
+**Early Dip**: Growth slowed in September 2024, understanding this dip could help prevent similar issues in the future.
+
+### Recommendations:
+**Investigate Initial Growth Efforts**: We will examine to understand what drove the initial increase in August and why growth slowed in September.
+
+**Focus on Peak Months**: November and March are pivotal months, we will evaluate what was successful and try to replicate similar strategies.
+
+**Sustain Engagement**: The consistent upward trend is promising, we will maintain or enhance campaigns to keep this momentum going.
+
+**Analyze Accelerations**: The steep rises in October-November and February-March could provide insights into what resonates most with your audience.
+
+We then summarized the "New Followers" data into a clear, monthly format. The "Date" column was converted to a datetime format for accurate grouping. The data was then grouped by month, and the total number of new followers for each month was calculated. The resulting table was enhanced for readability by converting the monthly period into a string format and renaming columns to "Month" and "Total New Followers." This cleaned and structured table provides a straightforward view of monthly follower growth.
+
+We went further to calculate the total number of new followers gained during the specified time frame (from July 31, 2024, to March 31, 2025) by summing up all the values in the "New followers" column. The result provides a clear metric of follower growth over this period, giving an overall measure of LinkedIn audience expansion. The calculation determined that a total of 779 new followers were gained on LinkedIn during the specified time frame from July 31, 2024, to March 18, 2025. This metric reflects the overall growth of your LinkedIn audience within this period.
+
+
+## Demographics Table
+
+We refined the demographic data related to companies. First, the original "Companies" demographic was filtered from the dataset. A new table was then created to separate the company "10Alytics" and group all remaining companies under a new category labeled "Other companies", assigning them a minimal percentage of 0.01%. The old "Companies" data was removed, and the new categories were added back into the dataset. This approach ensures a clearer and more focused representation of key companies within the demographics.
+
+Then we converting the "Percentage" column in the demographics dataframe (df_demo) to a float data type to ensure data consistency. This allows for accurate numerical operations, comparisons, and calculations on the percentage values, making the dataset ready for further analysis or visualization.
+
+### Comparison of Top Demographics
+![Comparison of Top Demographics](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/038e811b3c4988ba2f7ebcf73576ccb4e8a906fc/Comparison%20of%20Top%20Demographics.png)
+
+
+### Key Observations
+ - **Job Titles**
+**Top Role**: Data Analyst (~10%).
+
+**Other Roles**: Data Scientist (~8%), Founder (~3%), Software Engineer (~2%), and Data Science Specialist (~1%).
+
+**Insight**: Analytics-focused roles dominate, likely reflecting a target audience interested in data-driven work.
+
+
+ - **Locations**
+**Leading Region**: Lagos (~10%).
+
+**Other Key Areas**: Greater Seattle Area (~7%), Abuja (~6%), London Area, UK (~3%), and Ibadan (~2%).
+
+**Insight**: Most engagement comes from Lagos and Seattle, indicating strong connections in urban hubs.
+
+
+ - **Industries**
+**Largest Sector**: IT Services and IT Consulting (~27%).
+
+**Others**: Software Development (~25%), Financial Services (~5%), Higher Education (~2%), and Business Consulting (~2%).
+
+**Insight**: The audience is heavily concentrated in tech-related industries.
+
+
+ - **Seniority**
+**Dominant Level**: Entry-level (~35%).
+
+**Others**: Senior (~26%), Director (~4%), Manager (~3%), and Training (~3%).
+
+**Insight**: Most of the audience is early in their career, suggesting an opportunity to target training and career growth content.
+
+
+ - **Company Size**
+**Top Sizes**: 11–50 employees (~15%) and 1–10 employees (~11%).
+
+**Other Sizes**: 10,001+ (~11%), 1001–5000 (~8%), and 51–200 (~7%).
+
+**Insight**: The data reflects a mix of small startups and large enterprises, offering diverse opportunities for collaboration.
+
+
+ - **Companies**
+**Leading Company**: 10Alytics (~3%).
+
+**Other Companies**: Represent smaller percentages (~1% combined).
+
+**Insight**: The audience has a clear connection to a specialized analytics-focused company.
+
+
+### Overall Insights
+**Strong Tech Focus**: With industries like IT and Software Development leading, this is a highly tech-oriented demographic.
+
+**Early-Career Opportunities**: The high entry-level demographic indicates an opportunity for mentorship and growth-focused initiatives.
+
+**Geographic Diversity**: Although Lagos and Seattle lead, there’s representation from diverse global regions.
+
+Lastly, we proceeded to creating pie charts to visualize demographic distributions. A function was defined to plot pie charts based on the "Percentage" and "Value" columns within the demographic data. For each unique category in the "Top Demographics" column, a subset of the data was generated, and the function was applied to display the distribution of that category. The charts provide a clear, graphical representation of demographic proportions, making the data more interpretable.
+
+
+### Distribution of Job Titles
+![Distribution of Job titles](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/038e811b3c4988ba2f7ebcf73576ccb4e8a906fc/Comparison%20of%20Top%20Demographics.png)
+
+### Key Observations:
+**Dominant Role**: Data Analyst makes up the largest portion of the distribution at 41.5%, represented by the blue segment. This suggests a significant focus on analysis within the demographic or organization.
+
+**Secondary Role**: Data Scientist follows with 33.8% (orange segment), indicating a strong interest in deeper, computational, or machine learning-based tasks.
+
+**Other Roles**: Founder stands at 10.6% (green segment), signifying a notable entrepreneurial presence.
+
+ - Software Engineer accounts for 9.2% (red segment), reflecting contributions in development or technical engineering tasks.
+
+ - Data Science Specialist makes up a smaller portion at 4.9% (purple segment), highlighting niche expertise.
+
+### Insights:
+ - The predominance of Data Analysts and Data Scientists suggests a workforce or audience oriented towards data-intensive fields.
+
+ - The 10.6% representation of Founders indicates entrepreneurial ventures form a key segment, potentially enabling innovative projects or startups.
+
+ - Smaller segments like Software Engineers and Data Science Specialists might highlight areas for potential growth or strategic hiring.
+
+
+### Distribution of Locations
+![Distribution of Locations](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/038e811b3c4988ba2f7ebcf73576ccb4e8a906fc/Distribution%20of%20Locations.png)
+
+### Key Observations
+**Majority Presence**: **Lagos** dominates the distribution with 35.8%, indicating that over one-third of the data or population is concentrated in this location. This strong presence suggests Lagos as a central hub or key area of engagement.
+
+**Secondary Concentration**: **Greater Seattle** Area comes second with 26.4%, a significant proportion, although smaller than Lagos. This reinforces a connection to international or tech-focused demographics, as Seattle is known for its tech ecosystem.
+
+**Other Notable Locations**: **Abuja**: At 22.0%, it holds the third position, contributing significantly as a secondary urban hub within Nigeria.
+
+**London Area, UK**: With 9.4%, the London region adds an international element, indicative of global reach or connections.
+
+**Ibadan**: 6.3%, while the smallest segment, still holds relevance and contributes to geographic diversity.
+
+### Insights & Recommendations
+**Focus on Lagos**: Given its dominance, efforts could prioritize Lagos for campaigns, outreach, or growth strategies.
+
+**Strengthen Presence in Abuja and Ibadan**: These Nigerian cities already contribute a notable portion but have room for further development.
+
+**Leverage International Connections**: With the Greater Seattle Area and London representing international engagement, we will consider global marketing or partnership opportunities.
+
+**Diversification Potential**: The dominance of Lagos and Seattle suggests the possibility of expanding outreach efforts to smaller segments like Ibadan to achieve broader representation.
+
+
+### Distribution of Industries
+![Distribution of Industries](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/038e811b3c4988ba2f7ebcf73576ccb4e8a906fc/Distribution%20of%20Industries.png)
+
+### Key Observations
+**Dominant Industry**: IT Services and IT Consulting lead the pack at 44.4%, demonstrating a strong focus on technology-related services.
+
+**Secondary Industry**: Software Development follows closely with 39.6%, showcasing a significant interest or work in application development.
+
+**Minor Sectors**: Financial Services (8.1%), Business Consulting (3.9%), and Higher Education (3.9%) collectively contribute a smaller portion, reflecting additional yet less prominent interests.
+
+### Insights & Recommendations
+**Leverage Tech Dominance**: With a combined 84% focus on IT and Software Development, prioritizing tech-oriented initiatives or partnerships would align with the primary audience.
+
+**Explore Niche Opportunities**: While smaller, sectors like Financial Services and Higher Education could represent untapped potential for diversification or specialized solutions.
+
+**Strengthen Industry Ties**: We will engage more deeply with key players in IT and Software Development through targeted campaigns or collaborations.
+
+
+### Distribution of Seniority
+![Distribution of Seniority](https://github.com/Phenomkay/LinkedIn-Growth-Analysis/blob/038e811b3c4988ba2f7ebcf73576ccb4e8a906fc/Distribution%20of%20Seniority.png)
+
+### Key Observations
+**Major Segment**: Entry-level leads the distribution with 49.0%, nearly half of the total seniority distribution. This highlights a significant focus on early-career professionals.
+
+**Secondary Segment**: Senior-level follows with 36.7%, indicating a considerable representation of experienced professionals within the audience.
+
+**Other Levels**: Director-level stands at 5.1%, while Manager-level is at 4.8%. Both hold smaller portions of the distribution, suggesting fewer individuals in leadership roles. Training-level is the smallest segment, at 4.3%, reflecting either entry-level programs or individuals being upskilled.
+
+### Insights & Recommendations
+**Leverage Entry-Level Majority**: With nearly half the audience at the entry level, our focus will be on content, programs, or opportunities that cater to early-career growth and development.
+
+**Senior-Level Opportunities**: The significant senior presence suggests room for leadership initiatives, mentorship programs, or specialized training for experienced professionals.
+
+**Increase Engagement at Higher Levels**: Smaller proportions in Director and Manager levels may indicate an opportunity to target these segments through leadership-centric content or exclusive offerings.
+
+**Expand Training Resources**: The Training-level audience could grow with initiatives focused on skill-building or professional development.
